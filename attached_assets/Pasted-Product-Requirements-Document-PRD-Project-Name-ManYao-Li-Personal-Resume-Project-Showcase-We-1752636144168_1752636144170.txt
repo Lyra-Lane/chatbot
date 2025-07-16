@@ -1,0 +1,107 @@
+Product Requirements Document (PRD)
+
+Project Name: ManYao Li – Personal Resume & Project Showcase Website
+
+🎯 Project Objective
+
+To build a responsive, bilingual (English & Chinese) personal website hosted on GitHub Pages. The site will showcase resume content, project experience, research outcomes, personal insights, and contact details. It should support long-term maintenance and manual content updates.
+
+👤 Target Users
+
+Recruiters and interviewers (to assess candidate background)
+Professors/researchers (to review academic/research work)
+Peers/students (to explore blog posts and open-source projects)
+🧩 Website Structure
+
+1. Homepage / Personal Introduction
+Brief self-introduction, including 1–2 profile or activity photos
+Language toggle button (EN / 中文)
+Quick navigation links to other sections
+2. About Me (Resume Info)
+Educational background, research & internship experience, technical skills, awards
+Full bilingual content on the same page (language switch toggles entire section)
+3. Projects
+Present individual or team-led projects (research, modeling, competitions, etc.)
+Each project includes: title, timeline, short description, and external links (GitHub, PDF, slides, etc.)
+Categorized by field (e.g., NLP, statistical modeling, AI applications)
+4. Blog / Insights
+Posts written in Markdown, stored in a GitHub repository
+Website auto-loads and renders these posts
+Support for categories/tags (e.g., technical notes, reflections, competition recaps)
+5. Contact
+Icons/links for email, LinkedIn, GitHub
+Optional: QR code for WeChat or other contact methods
+🌐 Multilingual Support
+
+Toggle button for full-site language switching (EN / 中文)
+All static content (bio, resume, project descriptions) will have both language versions
+Implementation: basic static site generator or language toggle component to load different content files
+💾 Content Management
+
+All content manually maintained via GitHub
+Markdown blog articles hosted in GitHub repo and rendered using tools like Jekyll or Astro
+Images and resume photos also stored in the GitHub repository
+🎨 UI/UX Design Principles
+
+Responsive layout for desktop and mobile screens
+Clean, professional look with elegant color scheme
+Smooth page transitions and section-based navigation anchors
+🌀 Page Animations and Visual Effects
+
+Objective
+Enhance visual engagement, direct user attention, and convey a sense of professionalism.
+
+Design Guidelines
+Animations should be lightweight and natural, without distracting from the content.
+
+Recommended Animation Scenarios
+Homepage photo and greeting
+Style: Fade-in + slight zoom + delayed load
+Purpose: Create a warm, approachable first impression
+Resume sections / project descriptions
+Style: Fade-in + upward slide-in (from bottom)
+Purpose: Reveal content gradually for better readability
+Project cards / blog entries
+Style: Alternating slide-in (left-right) + subtle hover zoom
+Purpose: Draw attention to individual blocks, enhance hierarchy
+Navbar and language switch button
+Style: Short transition effect on interaction (color or scale)
+Purpose: Clear feedback and refined user interaction
+Full-page language or section switch
+Style: Fade-out → Fade-in transition
+Purpose: Smoothly transition between bilingual content or sections
+🔐 Security & Privacy
+
+No login or data storage; static-only website
+All contact links are publicly visible and can be periodically reviewed for privacy
+🚀 Deployment & Maintenance
+
+Site developed using Replit; deployed via GitHub Pages (on main or docs branch)
+Manual content updates via Git push
+Optional: add GitHub Actions for automated deployment later
+🧱 Recommended High-Level Tech Stack
+
+Framework: HTML + CSS + JavaScript or Astro (for multilingual static generation)
+Content System: Markdown files in GitHub
+Hosting Platform: GitHub Pages
+Language Switch: Toggle button loads language-specific content files
+⏳ Development Phase Breakdown
+
+Phase 1: Core Website Structure
+Build base layout for all key sections (Home / About / Projects / Blog / Contact)
+Create English and Chinese content files
+Implement language switch mechanism
+Phase 2: Content + Styling
+Add profile photos, project entries, blog framework
+Design theme, color palette, fonts, and layout
+Phase 3: Deployment & Optimization
+Deploy on GitHub Pages
+Add SEO metadata so recruiters can find the site easily
+Simplify update process (optionally add GitHub Actions later)
+🌱 Future Expansion Ideas
+
+Add RSS feed for blog subscriptions
+Visualize project results using charts or data dashboards
+Connect to Notion or Google Docs (if moving away from manual Markdown)
+Include a “Talks & Media” section (recorded talks, slide decks, interviews)
+This PRD is designed to guide your personal website development on Replit and GitHub Pages. Let me know if you'd like a downloadable version or further refinement!

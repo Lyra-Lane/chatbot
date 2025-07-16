@@ -1,0 +1,99 @@
+**ManYao Li**
+Berkeley, California, United States
+[manyaoli@berkeley.edu](mailto:manyaoli@berkeley.edu) | [www.linkedin.com/in/manyao-li-9a4436375](http://www.linkedin.com/in/manyao-li-9a4436375) | GitHub: github.com/Lyra-lane ｜Wechat : xftvhunko111
+
+---
+
+### 🌟 **Headline**
+
+**Data Science & NLP Intern | Statistics Student @ Beijing Normal University | Deep Learning | Python | LLaMA-2 | AI Research**
+
+---
+
+### 📄 **Summary**
+
+I’m an aspiring AI researcher and statistics undergraduate passionate about natural language processing and machine learning. I led a university-funded research project on Chinese irony recognition using LLaMA-2 and have won top honors in national competitions for statistical modeling and market research. I thrive in interdisciplinary environments and seek internships in AI, NLP, and data science where I can contribute my skills and deepen my experience.
+
+---
+
+### 👩‍🎓 **Education**
+
+**Beijing Normal University**
+Bachelor of Science in Statistics | 2023 – 2027
+Relevant Coursework: Probability Theory, Statistical Modeling, Machine Learning, Python Programming, Natural Language Processing
+GPA:3.8/4.0
+
+---
+
+### 🚀 **Experience**
+
+**Project Leader | Beijing Normal University**
+May 2025 – Present • Beijing, China
+
+* Led a research team of 4 students funded by the Beijing Undergraduate Research Fund.
+* Designed and fine-tuned a Chinese irony recognition model using LLaMA-2 and custom sarcasm corpus.
+* Benchmarked model against LSTM and RoBERTa; improved F1-score.
+* Planning to present findings to academic faculty; co-authoring a manuscript for publication.
+
+**Mathematics Teacher | Middle School of Fengtai**
+June 2024 – August 2024 • Hebei, China
+
+* Designed interactive math lessons for middle school students during summer outreach.
+* Mentored 40+ students and developed individualized support plans.
+* Awarded "Outstanding Educator" in school-led summer practice program.
+
+---
+
+### 🔧 **Projects**
+
+**Irony Detection in Chinese Social Media**
+
+* Built and trained NLP models (LSTM, RoBERTa, LLaMA-2) on a custom sarcasm-labeled dataset.
+* Implemented evaluation pipeline for precision, recall, F1-score; tuned hyperparameters to optimize generalization.
+* Conducted qualitative error analysis to improve detection in indirect or culturally nuanced sarcasm.
+
+**Statistical Modeling for Carbon-Neutral Bus Network** 
+
+* Applied time-series and spatial regression models to optimize Beijing public transport routes under carbon emission constraints.
+* Integrated metro data for dual-mode network optimization.
+
+---
+
+### 🔹 **Leadership & Volunteering**
+
+**Director | White Dove Youth Volunteer Association**
+
+* Organized weekly community service events; coordinated 30+ volunteers.
+* Launched an educational campaign for underserved schools.
+
+**Market Research Competition (Team Lead)**
+
+* Used R and Excel to conduct conjoint analysis and pricing strategy simulations.
+* Won the First Prize in the competition.
+
+---
+
+### 🔧 **Technical Skills**
+
+* **Languages & Libraries**: Python, R, SQL, LaTeX
+* **Data Analysis**: Pandas, NumPy, Matplotlib, Seaborn
+* **Other**: Git, EViews, Excel, PowerPoint, SPSS
+
+---
+
+### 🏆 **Awards & Scholarships**
+
+* First-class Academic Scholarship (2x)
+* Second-class Academic Scholarship (1x)
+* First Prize, Market Research Competition (2025)
+* Second Prize, National Statistical Modeling Competition (2025)
+* Third Prize, Summer Social Practice Program (2024)
+* Funded by Beijing Undergraduate Research Fund (PI role)
+
+---
+
+### 🎓 Language 
+
+* English (Professional Working) 
+* Spanish (Elementary) 
+* Chinese (Native or Bilingual)
