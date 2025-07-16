@@ -103,7 +103,7 @@ export function Footer() {
           <p>
             {t(
               "© 2024 ManYao Li. Built with passion for AI research and open science.",
-              "© 2024 李满瑶。怀着对人工智能研究和开放科学的热情而构建。"
+              "© 2024 李曼瑶。怀着对人工智能研究和开放科学的热情而构建。"
             )}
           </p>
         </div>

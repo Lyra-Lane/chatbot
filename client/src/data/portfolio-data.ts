@@ -2,7 +2,7 @@ export const portfolioData = {
   personal: {
     name: {
       en: "ManYao Li",
-      zh: "李满瑶"
+      zh: "李曼瑶"
     },
     title: {
       en: "AI Researcher & Data Scientist",
