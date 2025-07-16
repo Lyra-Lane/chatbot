@@ -2,7 +2,16 @@
 
 ## Overview
 
-This is a bilingual (English/Chinese) personal portfolio website for ManYao Li, an AI researcher and statistics student at Beijing Normal University. The project is built as a full-stack application with a React frontend and Express backend, designed to showcase research projects, academic achievements, and professional experience in the field of AI and machine learning.
+This is a bilingual (English/Chinese) personal portfolio website for ManYao Li, an AI researcher and statistics student at Beijing Normal University. The project has been converted from a full-stack application to a static website optimized for GitHub Pages hosting, designed to showcase research projects, academic achievements, and professional experience in the field of AI and machine learning.
+
+## Recent Changes (January 2025)
+
+- ✓ Updated profile photo to latest professional headshot
+- ✓ Converted from full-stack app to static website for GitHub Pages hosting
+- ✓ Removed server dependencies and simplified React app
+- ✓ Created GitHub Actions workflow for automatic deployment
+- ✓ Added comprehensive README with deployment instructions
+- ✓ Populated all content sections with ManYao's actual resume data
 
 ## User Preferences
 
@@ -19,12 +28,11 @@ Preferred communication style: Simple, everyday language.
 - **Build Tool**: Vite for development and build processes
 - **Language Support**: Custom context-based i18n system for English/Chinese content
 
-### Backend Architecture
-- **Framework**: Express.js with TypeScript
-- **Runtime**: Node.js with ES modules
-- **Development**: tsx for TypeScript execution in development
-- **Build**: esbuild for production bundling
-- **Storage**: In-memory storage implementation with interface for future database integration
+### Static Website Architecture
+- **Build Tool**: Vite for development and production builds
+- **Deployment**: GitHub Pages with GitHub Actions for CI/CD
+- **Static Files**: Generated HTML, CSS, JS served directly by GitHub Pages
+- **Assets**: Images and documents included in build output
 
 ### Key Design Decisions
 

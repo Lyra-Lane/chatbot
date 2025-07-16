@@ -2,7 +2,7 @@ import { Button } from '@/components/ui/button';
 import { Check } from 'lucide-react';
 import { useLanguage } from './language-context';
 import { portfolioData } from '@/data/portfolio-data';
-import profileImage from '@assets/证件照（长发）_1752636886554.jpg';
+import profileImage from '@assets/证件照（长发）_1752637704582.jpg';
 
 export function HeroSection() {
   const { t } = useLanguage();
