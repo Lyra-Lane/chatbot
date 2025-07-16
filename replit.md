@@ -12,6 +12,11 @@ This is a bilingual (English/Chinese) personal portfolio website for ManYao Li, 
 - ✓ Created GitHub Actions workflow for automatic deployment
 - ✓ Added comprehensive README with deployment instructions
 - ✓ Populated all content sections with ManYao's actual resume data
+- ✓ Created pure HTML/CSS/JS version in `docs/` folder for direct GitHub Pages deployment
+- ✓ Fixed Chinese name from "李满瑶" to "李曼瑶" across all components
+- ✓ Implemented vanilla JavaScript language switching system
+- ✓ Added complete responsive design with modern CSS
+- ✓ Included GitHub Actions workflow for automatic deployment
 
 ## User Preferences
 
