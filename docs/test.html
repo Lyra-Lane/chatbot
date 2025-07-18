@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f0f0f0;
+        }
+        .test-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .test-button {
+            background-color: #3b82f6;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="test-container">
+        <h1>网站测试页面</h1>
+        <p>如果您能看到这个页面，说明基本的HTML/CSS可以正常加载。</p>
+        <button class="test-button" onclick="testFunction()">点击测试JavaScript</button>
+        <div id="test-result"></div>
+    </div>
+    
+    <script>
+        function testFunction() {
+            document.getElementById('test-result').innerHTML = '<p style="color: green;">JavaScript正常工作！</p>';
+        }
+        
+        console.log('测试页面加载完成');
+    </script>
+</body>
+</html>

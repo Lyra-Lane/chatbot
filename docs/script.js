@@ -349,20 +349,49 @@ class AssetHandler {
 
 // Initialize everything when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
-    // Initialize all components
-    new LanguageSwitcher();
-    new Navigation();
-    new AnimationObserver();
-    new ProfileImageHandler();
-    new ContactHandler();
-    new AssetHandler();
+    try {
+        console.log('Starting website initialization...');
+        
+        // Initialize all components with error handling
+        console.log('Initializing Language Switcher...');
+        new LanguageSwitcher();
+        
+        console.log('Initializing Navigation...');
+        new Navigation();
+        
+        console.log('Initializing Animation Observer...');
+        new AnimationObserver();
+        
+        console.log('Initializing Profile Image Handler...');
+        new ProfileImageHandler();
+        
+        console.log('Initializing Contact Handler...');
+        new ContactHandler();
+        
+        console.log('Initializing Asset Handler...');
+        new AssetHandler();
 
-    // Add loading complete class to body
-    document.body.classList.add('loaded');
+        // Add loading complete class to body
+        document.body.classList.add('loaded');
+        
+        // Ensure content is visible
+        document.body.style.visibility = 'visible';
+        document.body.style.opacity = '1';
 
-    // Console message for developers
-    console.log('ManYao Li Portfolio Website Loaded Successfully! 🎉');
-    console.log('Built with HTML, CSS, and JavaScript for GitHub Pages');
+        // Console message for developers
+        console.log('ManYao Li Portfolio Website Loaded Successfully! 🎉');
+        console.log('Built with HTML, CSS, and JavaScript for GitHub Pages');
+        
+    } catch (error) {
+        console.error('Error during website initialization:', error);
+        // Emergency fallback: ensure content is visible even if scripts fail
+        document.body.style.visibility = 'visible';
+        document.body.style.opacity = '1';
+        document.body.style.display = 'block';
+        
+        // Show a simple alert for debugging
+        alert('Website loading encountered an error. Please check console for details.');
+    }
 });
 
 // Handle page visibility change
