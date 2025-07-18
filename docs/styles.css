@@ -874,6 +874,28 @@ section {
     color: #2563eb;
 }
 
+/* Chatbot Section */
+.chatbot {
+    background-color: #f8fafc;
+}
+
+.chatbot-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.chatbot-wrapper {
+    background-color: white;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.chatbot-wrapper iframe {
+    border-radius: 8px;
+    border: none;
+}
+
 /* Contact Section */
 .contact {
     background-color: white;

@@ -34,6 +34,7 @@ export function Navigation() {
     { id: 'about', label: { en: 'About', zh: '关于' } },
     { id: 'projects', label: { en: 'Projects', zh: '项目' } },
     { id: 'blog', label: { en: 'Blog', zh: '博客' } },
+    { id: 'chatbot', label: { en: 'Chatbot', zh: '聊天机器人' } },
     { id: 'contact', label: { en: 'Contact', zh: '联系' } }
   ];
 
