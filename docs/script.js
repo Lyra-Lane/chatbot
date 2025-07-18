@@ -405,6 +405,33 @@ document.addEventListener('visibilitychange', () => {
     }
 });
 
+// Chatbot functionality
+function showChatbotFallback() {
+    const iframe = document.querySelector('.chatbot-wrapper iframe');
+    const fallback = document.getElementById('chatbot-fallback');
+    
+    if (iframe && fallback) {
+        iframe.style.display = 'none';
+        fallback.style.display = 'block';
+    }
+}
+
+// Check if chatbot iframe loads properly
+document.addEventListener('DOMContentLoaded', () => {
+    const chatbotIframe = document.querySelector('.chatbot-wrapper iframe');
+    if (chatbotIframe) {
+        // Set a timeout to show fallback if iframe doesn't load
+        setTimeout(() => {
+            if (!chatbotIframe.contentDocument && !chatbotIframe.contentWindow) {
+                showChatbotFallback();
+            }
+        }, 10000); // 10 seconds timeout
+        
+        // Handle iframe load error
+        chatbotIframe.addEventListener('error', showChatbotFallback);
+    }
+});
+
 // Service Worker registration for offline functionality (optional)
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {

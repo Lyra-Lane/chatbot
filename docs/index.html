@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>李曼瑶 ManYao Li - AI Researcher & Data Scientist</title>
+
     <meta name="description" content="李曼瑶 ManYao Li - Statistics student at Beijing Normal University specializing in NLP, machine learning, and AI research. Chinese irony detection with LLaMA-2.">
     <meta name="keywords" content="AI researcher, data scientist, NLP, machine learning, Beijing Normal University, statistics, ManYao Li, 李曼瑶">
     
@@ -462,10 +463,23 @@
                     <iframe
                         src="https://www.chatbase.co/chatbot-iframe/dgxbknfkAGEsLEN5xY6M9"
                         width="100%"
-                        style="height: 100%; min-height: 700px"
+                        height="700"
                         frameborder="0"
-                        title="AI Chatbot">
+                        allow="clipboard-read; clipboard-write"
+                        sandbox="allow-same-origin allow-scripts allow-popups allow-forms"
+                        title="AI Chatbot"
+                        onload="this.style.display='block'"
+                        onerror="showChatbotFallback()">
                     </iframe>
+                    <div class="chatbot-fallback" id="chatbot-fallback">
+                        <h3 data-en="Chatbot Temporarily Unavailable" data-zh="聊天机器人暂时不可用">Chatbot Temporarily Unavailable</h3>
+                        <p data-en="The chatbot is currently loading or unavailable. You can:" data-zh="聊天机器人正在加载或暂时不可用。您可以：">The chatbot is currently loading or unavailable. You can:</p>
+                        <p>
+                            <a href="https://www.chatbase.co/chatbot-iframe/dgxbknfkAGEsLEN5xY6M9" target="_blank" data-en="Open chatbot in new window" data-zh="在新窗口中打开聊天机器人">Open chatbot in new window</a>
+                            <span data-en=" or " data-zh=" 或 "> or </span>
+                            <a href="#contact" data-en="contact me directly" data-zh="直接联系我">contact me directly</a>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>

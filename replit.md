@@ -4,6 +4,16 @@
 
 This is a bilingual (English/Chinese) personal portfolio website for ManYao Li, an AI researcher and statistics student at Beijing Normal University. The project has been converted from a full-stack application to a static website optimized for GitHub Pages hosting, designed to showcase research projects, academic achievements, and professional experience in the field of AI and machine learning.
 
+## Recent Changes
+
+### January 18, 2025 - Chatbot Integration
+- Added new "Chatbot" tab to both React app and static HTML website
+- Integrated Chatbase iframe (dgxbknfkAGEsLEN5xY6M9) for AI-powered interaction
+- Implemented fallback mechanism for iframe loading issues
+- Added bilingual support for chatbot section (English/Chinese)
+- Updated navigation, footer, and CSS styles for chatbot section
+- Created deployment troubleshooting guide (CHATBOT-DEPLOYMENT.md)
+
 ## Recent Changes (January 2025)
 
 - ✓ Updated profile photo to latest professional headshot
